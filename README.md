@@ -36,7 +36,7 @@ Durante el desarrollo se identificó y corrigió un error lógico en la función
 ```cpp
 int calcularHoras(int entrada, int salida){
     int horas = salida - entrada;
-    if(horas == 0) // ERROR: Operador de asignación en lugar de comparación
+    if(horas == 0) // Operador de asignación en lugar de comparación
         return 1;
     return horas;
 }
