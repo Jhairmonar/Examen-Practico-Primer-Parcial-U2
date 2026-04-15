@@ -54,7 +54,7 @@ public:
 
 
 // Depuración del fragmento asignado (Grupo H)
-// Corrección táctica: Uso de '==' para comparación en lugar de '=' (asignación)
+// Uso de '==' para comparación en lugar de '=' (asignación)
 int calcularHoras(int entrada, int salida) {
     int horas = salida - entrada;
     if (horas == 0) {
@@ -69,7 +69,7 @@ int totalInfraccionesSect(VehiculoCampus vehiculos[], int n) {
     return vehiculos[n - 1].getInfracciones() + totalInfraccionesSect(vehiculos, n - 1);
 }
 
-// Ordenamiento manual: Táctica de "Burbuja" para listar mayores infractores (Sin usar sort)
+// Ordenamiento manual: Táctica de "Burbuja" para listar mayores infractores
 void ordenarPorInfracciones(VehiculoCampus vehiculos[], int n) {
     for (int i = 0; i < n - 1; i++) {
         for (int j = 0; j < n - i - 1; j++) {
@@ -95,7 +95,7 @@ int buscarVehiculo(VehiculoCampus vehiculos[], int n, string placaBuscada) {
 }
 
 // ==========================================
-// MÓDULO OBLIGATORIO: ENTRENAMIENTO (AHORCADO)
+// MÓDULO OBLIGATORIO: AHORCADO
 // ==========================================
 void ejecutarAhorcado() {
     cout << "\n=======================================\n";
@@ -165,7 +165,7 @@ int main() {
         cout << "2. Registrar movimiento (Ingreso/Salida)\n";
         cout << "3. Rastreo por Placa (Busqueda)\n";
         cout << "4. Reporte de Hostiles (Ordenar por Infracciones)\n";
-        cout << "5. Resumen del Perimetro (Infracciones Totales - Recursividad)\n";
+        cout << "5. Resumen del Perimetro (Infracciones Totales)\n";
         cout << "6. Modulo de Ahorcado\n";
         cout << "7. Desconectar\n";
         cout << "Seleccione una opcion: ";
