@@ -4,10 +4,10 @@
 **Caso Asignado:** Grupo H - Parqueadero universitario y control de infracciones 
 
 ## 1. Descripción del Proyecto 📚
-Este repositorio contiene la solución al examen práctico integrador desarrollado en C++. [cite_start]El sistema gestiona el parqueadero de un campus universitario, controlando los ingresos, salidas, tiempos de permanencia, tarifas y sanciones de los vehículos[cite: 164]. [cite_start]Además, el proyecto integra un módulo obligatorio del juego "Ahorcado", adaptado al vocabulario técnico del caso principal[cite: 51, 64].
+Este repositorio contiene la solución al examen práctico integrador desarrollado en C++. El sistema gestiona el parqueadero de un campus universitario, controlando los ingresos, salidas, tiempos de permanencia, tarifas y sanciones de los vehículos. Además, el proyecto integra un módulo obligatorio del juego "Ahorcado", adaptado al vocabulario técnico del caso principal.
 
 ## 2. Metodología de Desarrollo ✔️
-El proyecto fue construido siguiendo un enfoque estructurado de 6 fases, evidenciando un proceso de desarrollo real[cite: 21, 28]:
+El proyecto fue construido siguiendo un enfoque estructurado de 6 fases, evidenciando un proceso de desarrollo real:
 
 * **Fase 1 - Análisis:** Se identificaron las entidades principales, reglas de negocio (como el cálculo de tarifas e infracciones) y se elaboró una prueba de escritorio mínima.
 * **Fase 2 - Diseño:** Se definieron las clases requeridas con sus respectivos atributos privados y métodos, además de estructurar el menú principal integrador.
